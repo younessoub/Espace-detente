@@ -1,6 +1,85 @@
+:root {
+    --color-one: #ecf0f1;
+    --color-two: #e74c3c;
+    --color-three: white;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+/* css reset start */
+img {
+    max-width: 100%;
+}
+
+
+
+/* css reset end */
+
+
+
+/* utility classes start*/
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* utility classes end */
+
+
+body {
+    background-color: var(--color-one);
+}
+
+main {
+    padding: 0 7%;
+}
+
+.services-container {
+    /* border: 1px solid red; */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.services-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.services-grid>div {
+    background-color: var(--color-two);
+    color: var(--color-three);
+    height: 350px;
+    border: 1px solid red;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform .5s ease;
+}
+
+.services-grid>div:hover {
+    transform: scale(1.04);
+
+}
+
+.services-grid>div img {
+    height: 300px;
+    width: 100%;
+}
+
+.card-title {
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
 }
