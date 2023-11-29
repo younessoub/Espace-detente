@@ -16,7 +16,10 @@ img {
     max-width: 100%;
 }
 
-
+a {
+    text-decoration: none;
+    color: unset;
+}
 
 /* css reset end */
 
@@ -41,6 +44,50 @@ main {
     padding: 0 7%;
 }
 
+header {
+    background-color: var(--color-two);
+    padding: 15px 20px;
+}
+
+h1 {
+    color: var(--color-one);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.head-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    /* padding: 0 2px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-container ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.head-container li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--color-one);
+}
+
+
+
+.head-container img {
+    width: 20px;
+    height: 20px;
+}
+
+h2 {
+    padding: 20px 0;
+}
+
 .services-container {
     /* border: 1px solid red; */
     max-width: 1000px;
@@ -50,7 +97,7 @@ main {
 .services-grid {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .services-grid>div {
@@ -82,4 +129,14 @@ main {
     text-align: center;
     padding: 10px;
     font-weight: 400;
+}
+
+@media (max-width:700px) {
+    h1 {
+        font-size: 1rem;
+    }
+
+    .head-container li span {
+        display: none;
+    }
 }
