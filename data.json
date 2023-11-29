@@ -1,0 +1,29 @@
+{
+    "services": [
+        {
+            "name": "les chaises et les tables",
+            "description": "Des chaises et des tables à louer",
+            "prix": "1DH pour une chaise et 3DH pour une chaise et une table"
+        },
+        {
+            "name": "les chaises et les tables",
+            "description": "Des chaises et des tables à louer",
+            "prix": "1DH pour une chaise et 3DH pour une chaise et une table"
+        },
+        {
+            "name": "les chaises et les tables",
+            "description": "Des chaises et des tables à louer",
+            "prix": "1DH pour une chaise et 3DH pour une chaise et une table"
+        },
+        {
+            "name": "les chaises et les tables",
+            "description": "Des chaises et des tables à louer",
+            "prix": "1DH pour une chaise et 3DH pour une chaise et une table"
+        },
+        {
+            "name": "les chaises et les tables",
+            "description": "Des chaises et des tables à louer",
+            "prix": "1DH pour une chaise et 3DH pour une chaise et une table"
+        }
+    ]
+}

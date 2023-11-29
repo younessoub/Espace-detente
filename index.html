@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Espace Détente</title>
+    <link rel="icon" type="image/x-icon" href="./images/cmc-logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -15,73 +16,92 @@
 <body>
     <header>
         <div class="head-container">
-            <h1>Espace-Détente</h1>
+            <h1 class="logo"><a href="#">CMC souss-massa</a></h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="./pages/login.html">
                             <span>Se Connecter</span>
                             <div class="flex-center"> <img src="./images/login.png"></div>
                         </a>
                     </li>
                     <li>
+                        <a href="./pages/register.html">
+                            <span>S'inscrire</span>
+                            <div class="flex-center"> <img src="./images/register.png"></div>
+                        </a>
+                    </li>
+                    <!-- <li>
                         <a href="#">
                             <span>Se Déconnecter</span>
                             <div class="flex-center"><img src="./images/logout.png"></div>
                         </a>
-                    </li>
+                    </li> -->
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <div class="services-container">
+        <section class="hero-section">
+            <div class="flex-center">
+                <img src="./images/cmc_banner.jfif" alt="">
+            </div>
+        </section>
+
+        <section class="services-container">
             <h2>Nos Services</h2>
             <div class="services-grid">
-                <div>
-                    <div class="flex-center">
-                        <img src="./images/chaise-atlas.jpg" alt="Les chaises">
+                <a href="./pages/chaises_et_tables.html">
+                    <div id="0">
+                        <div class="flex-center">
+                            <img src="./images/chaise-atlas.jpg" alt="Les chaises">
+                        </div>
+                        <h3 class="card-title">Les Chaises et les tables</h3>
                     </div>
-                    <h3 class="card-title">Les Chaises</h3>
-                </div>
-                <div>
-                    <div class="flex-center">
-                        <img src="./images/tables.jpg" alt="Les tables">
+                </a>
+
+                <a href="./pages/jeux.html">
+                    <div id="1">
+                        <div class="flex-center">
+                            <img src="./images/board-games.jpg" alt="des Jeux">
+                        </div>
+                        <h3 class="card-title">Des Jeux</h3>
                     </div>
-                    <h3 class="card-title">Les Tables</h3>
-                </div>
-                <div>
-                    <div class="flex-center">
-                        <img src="./images/board-games.jpg" alt="des Jeux">
+                </a>
+                <a href="./pages/livres.html">
+                    <div id="2">
+                        <div class="flex-center">
+                            <img src="./images/books.webp" alt="Les livres">
+                        </div>
+                        <h3 class="card-title">Les Livres</h3>
                     </div>
-                    <h3 class="card-title">Des Jeux</h3>
-                </div>
-                <div>
-                    <div class="flex-center">
-                        <img src="./images/books.webp" alt="Les livres">
+                </a>
+                <a href="./pages/blouses.html">
+                    <div id="3">
+                        <div class="flex-center">
+                            <img src="./images/blouse.png" alt="Les Blouses">
+                        </div>
+                        <h3 class="card-title">Les Blouses</h3>
                     </div>
-                    <h3 class="card-title">Les Livres</h3>
-                </div>
-                <div>
-                    <div class="flex-center">
-                        <img src="./images/blouse.png" alt="Les Blouses">
+                </a>
+                <a href="./pages/distrubuteur.html">
+                    <div id="4">
+                        <div class="flex-center">
+                            <img src="./images/coffe-machine.webp" alt="Distributeur de café">
+                        </div>
+                        <h3 class="card-title">Les Distributeur de café</h3>
                     </div>
-                    <h3 class="card-title">Les Blouses</h3>
-                </div>
-                <div>
-                    <div class="flex-center">
-                        <img src="./images/coffe-machine.webp" alt="Distributeur de café">
+                </a>
+                <a href="./pages/cirage.html">
+                    <div id="5">
+                        <div class="flex-center">
+                            <img src="./images/cirage.png" alt="Cirage">
+                        </div>
+                        <h3 class="card-title">Cirage</h3>
                     </div>
-                    <h3 class="card-title">Les Distributeur de café</h3>
-                </div>
-                <div>
-                    <div class="flex-center">
-                        <img src="./images/cirage.png" alt="Cirage">
-                    </div>
-                    <h3 class="card-title">Cirage</h3>
-                </div>
+                </a>
             </div>
-        </div>
+            </div>
     </main>
     <footer></footer>
 </body>

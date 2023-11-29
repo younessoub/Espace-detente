@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaises et tables</title>
+    <link rel="icon" type="image/x-icon" href="../images/cmc-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="head-container">
+            <h1 class="logo"><a href="../index.html">CMC souss-massa</a></h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./deconnecter.html">
+                            <span>Se déconnecter</span>
+                            <div class="flex-center"> <img src="../images/logout.png"></div>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="service-page-container">
+            <div class="flex-center">
+                <img src="../images/chaise-atlas.jpg">
+            </div>
+
+            <div class="detail">
+
+                <p> Des Chaises et Des Tables à louer</p>
+                <br>
+                <p>Prix : 1DH pour une chaise et 3DH pour une chaise et une table</p>
+
+            </div>
+
+
+        </div>
+        <div class="reservation-container">
+            <h2>Reservation</h2>
+            <div class="reservation-form">
+                <form>
+                    <input type="number" placeholder="nombre des chaises" min=1 max=30 required>
+                    <input type="number" placeholder="nombre des tables" min="1" max="6" required>
+                    <input type="date" required placeholder="jour">
+                    <input type="time" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
