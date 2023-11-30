@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Des jeux</title>
+    <link rel="icon" type="image/x-icon" href="../images/cmc-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="head-container">
+            <h1 class="logo"><a href="../index.html">CMC souss-massa</a></h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./deconnecter.html">
+                            <span>Se déconnecter</span>
+                            <div class="flex-center"> <img src="../images/logout.png"></div>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1 class="service-title">Service de Jeux de Société</h1>
+        <div class="service-page-container">
+            <div class="flex-center">
+                <img src="../images/board-games.jpg">
+            </div>
+
+            <div class="detail">
+
+                <p>Bienvenue dans notre coin jeux, l'endroit idéal pour stimuler votre esprit, partager des moments de
+                    rire et d'apprentissage. Notre service de jeux de société propose une sélection soigneusement
+                    choisie pour satisfaire tous les amateurs de jeux.</p>
+                <br>
+                <p>Jeux Disponibles:
+                    échecs, Monopoly, Parchisi
+                </p>
+                <br>
+                <p>Location de Jeux: </p>
+                <p>
+
+                    Échecs (Chess): 3DH par partie <br>
+                    Parchisi: 3DH par partie <br>
+                    Monopoly: 3DH par partie <br>
+
+                </p>
+            </div>
+
+
+        </div>
+        <div class="reservation-container">
+            <h2>Reservation</h2>
+            <div class="reservation-form">
+                <form>
+                    <!-- <input type="select" placeholder="Choisir le jeux" required> -->
+                    <select>
+                        <option value="echecs">échecs</option>
+                        <option value="monopoly">Monopoly</option>
+                        <option value="parchisi">Parchisi</option>
+                        <!-- <option value="audi">Aud</option> -->
+                    </select>
+                    <input type="date" required placeholder="jour">
+                    <input type="time" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

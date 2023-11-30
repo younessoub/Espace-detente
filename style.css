@@ -96,6 +96,12 @@ header {
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+}
+
+.hero-section img {
+    width: 100%;
 }
 
 .hero-section h1 {
@@ -124,7 +130,7 @@ h2 {
 .services-grid a>div {
     background-color: var(--color-five);
     color: var(--color-four);
-    height: 370px;
+    height: 280px;
     border: 1px solid var(--color-two);
     cursor: pointer;
     border-radius: 10px;
@@ -141,7 +147,7 @@ h2 {
 }
 
 .services-grid a>div img {
-    height: 300px;
+    height: 200px;
     width: 100%;
 }
 
@@ -212,9 +218,19 @@ h2 {
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 30px;
     margin: 50px 15px;
     color: var(--color-two);
+}
+
+.service-title {
+    color: var(--color-two);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.service-page-container>div {
+    flex: 1;
 }
 
 .service-page-container img {
